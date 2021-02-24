@@ -1,6 +1,6 @@
 package br.com.zup.proposta.detalhaproposta;
 
-import br.com.zup.proposta.novaproposta.Cartao;
+import br.com.zup.proposta.novaproposta.criacartao.Cartao;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;

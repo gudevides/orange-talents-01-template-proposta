@@ -1,6 +1,6 @@
 package br.com.zup.proposta.avisoviagem;
 
-import br.com.zup.proposta.novaproposta.Cartao;
+import br.com.zup.proposta.novaproposta.criacartao.Cartao;
 
 import javax.persistence.*;
 import javax.servlet.http.HttpServletRequest;

@@ -1,6 +1,6 @@
 package br.com.zup.proposta.avisoviagem;
 
-import br.com.zup.proposta.novaproposta.Cartao;
+import br.com.zup.proposta.novaproposta.criacartao.Cartao;
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonFormat;
 

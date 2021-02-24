@@ -1,9 +1,12 @@
-package br.com.zup.proposta.novaproposta;
+package br.com.zup.proposta.novaproposta.criacartao;
 
+import br.com.zup.proposta.apicompartilhada.ApiCartao;
+import br.com.zup.proposta.novaproposta.Proposta;
+import br.com.zup.proposta.novaproposta.PropostaRepository;
+import br.com.zup.proposta.novaproposta.StatusEnum;
 import feign.FeignException;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
-import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 

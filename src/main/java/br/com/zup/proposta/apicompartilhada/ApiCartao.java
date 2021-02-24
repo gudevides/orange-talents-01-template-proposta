@@ -1,6 +1,9 @@
-package br.com.zup.proposta.novaproposta;
+package br.com.zup.proposta.apicompartilhada;
 
 import br.com.zup.proposta.bloqueiocartao.BloqueiaCartaoRequest;
+import br.com.zup.proposta.avisoviagem.ApiAvisoCartaoRequest;
+import br.com.zup.proposta.cadastrocarteiras.ApiCadastroCarteiraRequest;
+import br.com.zup.proposta.novaproposta.criacartao.ConsultaCartaoResponse;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

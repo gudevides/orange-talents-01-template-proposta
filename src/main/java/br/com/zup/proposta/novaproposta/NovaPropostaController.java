@@ -1,5 +1,6 @@
 package br.com.zup.proposta.novaproposta;
 
+import br.com.zup.proposta.apicompartilhada.ApiStatus;
 import feign.FeignException;
 import io.opentracing.Span;
 import io.opentracing.Tracer;

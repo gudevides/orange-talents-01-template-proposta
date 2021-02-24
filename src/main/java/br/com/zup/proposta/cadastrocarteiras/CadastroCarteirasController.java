@@ -1,9 +1,8 @@
 package br.com.zup.proposta.cadastrocarteiras;
 
 import br.com.zup.proposta.cadastrabiometria.CartaoRepository;
-import br.com.zup.proposta.novaproposta.ApiCadastroCarteiraRequest;
-import br.com.zup.proposta.novaproposta.ApiCartao;
-import br.com.zup.proposta.novaproposta.Cartao;
+import br.com.zup.proposta.apicompartilhada.ApiCartao;
+import br.com.zup.proposta.novaproposta.criacartao.Cartao;
 import feign.FeignException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

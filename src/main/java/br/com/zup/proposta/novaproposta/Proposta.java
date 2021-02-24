@@ -1,6 +1,8 @@
 package br.com.zup.proposta.novaproposta;
 
 import br.com.zup.proposta.config.criptografia.CriptografadorConverter;
+import br.com.zup.proposta.novaproposta.criacartao.Cartao;
+import br.com.zup.proposta.novaproposta.criacartao.ConsultaCartaoResponse;
 
 import javax.persistence.*;
 import javax.validation.Valid;

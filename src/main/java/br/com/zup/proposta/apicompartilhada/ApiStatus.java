@@ -1,5 +1,6 @@
-package br.com.zup.proposta.novaproposta;
+package br.com.zup.proposta.apicompartilhada;
 
+import br.com.zup.proposta.novaproposta.Proposta;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

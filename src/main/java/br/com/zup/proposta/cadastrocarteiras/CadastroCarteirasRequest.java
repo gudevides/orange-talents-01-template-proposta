@@ -1,6 +1,6 @@
 package br.com.zup.proposta.cadastrocarteiras;
 
-import br.com.zup.proposta.novaproposta.Cartao;
+import br.com.zup.proposta.novaproposta.criacartao.Cartao;
 
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;

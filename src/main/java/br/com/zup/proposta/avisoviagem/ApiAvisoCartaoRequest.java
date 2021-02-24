@@ -1,6 +1,4 @@
-package br.com.zup.proposta.novaproposta;
-
-import br.com.zup.proposta.avisoviagem.AvisoViagemRequest;
+package br.com.zup.proposta.avisoviagem;
 
 import javax.validation.constraints.Future;
 import javax.validation.constraints.NotBlank;

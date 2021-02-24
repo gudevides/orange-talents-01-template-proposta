@@ -1,9 +1,10 @@
-package br.com.zup.proposta.novaproposta;
+package br.com.zup.proposta.novaproposta.criacartao;
 
 import br.com.zup.proposta.avisoviagem.AvisoViagem;
 import br.com.zup.proposta.bloqueiocartao.Bloqueio;
 import br.com.zup.proposta.cadastrabiometria.Biometria;
 import br.com.zup.proposta.cadastrocarteiras.Carteira;
+import br.com.zup.proposta.novaproposta.Proposta;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;

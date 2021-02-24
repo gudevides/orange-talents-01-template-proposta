@@ -1,9 +1,8 @@
 package br.com.zup.proposta.avisoviagem;
 
 import br.com.zup.proposta.cadastrabiometria.CartaoRepository;
-import br.com.zup.proposta.novaproposta.ApiAvisoCartaoRequest;
-import br.com.zup.proposta.novaproposta.ApiCartao;
-import br.com.zup.proposta.novaproposta.Cartao;
+import br.com.zup.proposta.apicompartilhada.ApiCartao;
+import br.com.zup.proposta.novaproposta.criacartao.Cartao;
 import feign.FeignException;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

@@ -1,9 +1,9 @@
 package br.com.zup.proposta.bloqueiocartao;
 
 import br.com.zup.proposta.cadastrabiometria.CartaoRepository;
-import br.com.zup.proposta.novaproposta.ApiCartao;
-import br.com.zup.proposta.novaproposta.Cartao;
-import br.com.zup.proposta.novaproposta.StatusCartaoEnum;
+import br.com.zup.proposta.apicompartilhada.ApiCartao;
+import br.com.zup.proposta.novaproposta.criacartao.Cartao;
+import br.com.zup.proposta.novaproposta.criacartao.StatusCartaoEnum;
 import feign.FeignException;
 import org.springframework.format.annotation.NumberFormat;
 import org.springframework.http.HttpStatus;
